@@ -6,7 +6,7 @@ prijzen = {
 korting = 0.8
 aanbieding = prijzen["vanille"] * korting
 reclame_tekst = (f"Vandaag in de aanbieding: vanille-ijs, 1 liter - slechts €{aanbieding}")
-#ik heb geen reclame_tekst2 omdat het er anders uitzag dan in de cursus
+#ik heb geen reclame_tekst2 omdat het mijne er anders uitzag dan in de cursus en ik niet zo goed snapte wat ik er precies mee moest doen.
 reclame_tekst3 = reclame_tekst.upper()
 reclame_tekst4 = reclame_tekst3.split()
 for el in reclame_tekst4:
@@ -14,5 +14,5 @@ for el in reclame_tekst4:
         print(el.upper())
     else:
         print(el.lower())
-    
+
 
