@@ -1,3 +1,5 @@
+from helper import decoreer
+
 def print_aanbieding():
     prijzen = {
         "aardbei" : 3,
@@ -15,7 +17,6 @@ def print_aanbieding():
             print(el.upper())
         else:
             print(el.lower())
+decoreer("Aanbieding")
 
 print_aanbieding()
-
-
