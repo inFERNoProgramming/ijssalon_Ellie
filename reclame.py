@@ -11,17 +11,23 @@ def inkomsten_totaal(a,b,c,d,e,f,g):
 
 inkomsten_en_btw = inkomsten_totaal(220,430,125,160,205,90,345)
 
-def hoog_en_laag(mijn_lijst):
+def laag_en_hoog(mijn_lijst):
     maximum = max(mijn_lijst)
     minimum = min(mijn_lijst)
     print(maximum)
     print(minimum)
    
 mijn_lijst = [220, 430, 125, 160, 205, 90, 345]
-hooglaag = hoog_en_laag(mijn_lijst)
+hooglaag = laag_en_hoog(mijn_lijst)
 
 def gemiddelde(a,b,c,d,e,f,g):
     average = (a+b+c+d+e+f+g) // 7
     print(f"De gemiddelde inkomsten deze week zijn {average} euro.")
 
 gemiddeld_inkomen = gemiddelde(220,430,125,160,205,90,345)
+
+def meervoudig(invoer_lijst):
+    laag_en_hoog(invoer_lijst)
+
+invoer_lijst = [10,5,3,2,1,2,9]
+meervoudigen = meervoudig(invoer_lijst)
