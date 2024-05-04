@@ -11,8 +11,11 @@ def inkomsten_totaal(a,b,c,d,e,f,g):
 
 inkomsten_en_btw = inkomsten_totaal(220,430,125,160,205,90,345)
 
-mijn_lijst = 220,430,125,160,205,90,345
 def hoog_en_laag(mijn_lijst):
-    x = max(mijn_lijst)
-    y = min(mijn_lijst)
-    print(f"max = {x} en min = {y}")
+    maximum = max(mijn_lijst)
+    minimum = min(mijn_lijst)
+    print(maximum)
+    print(minimum)
+   
+mijn_lijst = [220, 430, 125, 160, 205, 90, 345]
+hooglaag = hoog_en_laag(mijn_lijst)
