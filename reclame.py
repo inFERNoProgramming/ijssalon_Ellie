@@ -19,3 +19,9 @@ def hoog_en_laag(mijn_lijst):
    
 mijn_lijst = [220, 430, 125, 160, 205, 90, 345]
 hooglaag = hoog_en_laag(mijn_lijst)
+
+def gemiddelde(a,b,c,d,e,f,g):
+    average = (a+b+c+d+e+f+g) // 7
+    print(f"De gemiddelde inkomsten deze week zijn {average} euro.")
+
+gemiddeld_inkomen = gemiddelde(220,430,125,160,205,90,345)
